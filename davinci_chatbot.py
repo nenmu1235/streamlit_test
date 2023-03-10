@@ -8,7 +8,7 @@ Created on Wed Mar  8 13:18:06 2023
 import openai
 
 model_engine = 'davinci'
-openai.api_key = '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'
+openai.api_key = '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'
 
 def generate_text(prompt):
     response = openai.Completion.create(
